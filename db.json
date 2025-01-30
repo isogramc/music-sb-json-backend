@@ -2,32 +2,37 @@
   "projects": [
     {
       "id": 1,
-      "title": "Module 2 Project",
-      "description": "Module 2 project - Integrate a React app with backend.",
+      "title": "Doodle in C major",
+      "description": "Just a basic riff",
+      "image": "https://hdqwalls.com/wallpapers/sunset-beach-cp.jpg", 
+      "notes": ["C4", "A4", "E4", "G4"],
+      "duration": 10,
+      "genre": "pop",
       "userId": 1
     },
     {
       "id": 2,
-      "title": "Module 3 Project",
-      "description": "Create a full-stack application using MERN stack.",
-      "userId": 1
+      "title": "Doodle in D minor",
+      "description": "Creating a jazzy tune in Dm",
+      "image": "https://unsplash.com/photos/an-overhead-view-of-a-forest-with-lots-of-trees-ZhXZEvEhJmQ", 
+      "notes": ["E#", "A", "E", "B"],
+      "duration": 10,
+      "genre": "jazz",
+      "userId": 2
     }
   ],
-  "tasks": [
+  "users": [
     {
       "id": 1,
-      "projectId": 1,
-      "description": "Use Vite to create a basic React app"
+      "userId": 1,
+      "image": "",
+      "fullName": "Paulo Prado"
     },
     {
       "id": 2,
-      "projectId": 1,
-      "description": "Install React Router and setup routes"
-    },
-    {
-      "id": 3,
-      "projectId": 2,
-      "description": "Create a form with 5 input fields"
+      "userId": 2,
+      "image": "",
+      "fullName": "Trix Mostert"
     }
   ]
 }
