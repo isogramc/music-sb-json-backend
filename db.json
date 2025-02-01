@@ -5,7 +5,7 @@
       "title": "Doodle in C major",
       "description": "Just a basic riff",
       "image": "https://hdqwalls.com/wallpapers/sunset-beach-cp.jpg", 
-      "notes": ["C4", "A4", "E4", "G4"],
+      "tracks": [1, 2],
       "duration": 10,
       "genre": "pop",
       "userId": 1
@@ -15,10 +15,32 @@
       "title": "Doodle in D minor",
       "description": "Creating a jazzy tune in Dm",
       "image": "https://unsplash.com/photos/an-overhead-view-of-a-forest-with-lots-of-trees-ZhXZEvEhJmQ", 
-      "notes": ["E#", "A", "E", "B"],
+      "tracks": [3, 4],
       "duration": 10,
       "genre": "jazz",
       "userId": 2
+    }
+  ],
+  "tracks": [
+    {
+      "id": 1,
+      "notes": ["C4", "A4", "E4", "G4"],
+      "projectId": 1
+    },
+    {
+      "id": 2,
+      "notes": ["C4", "A4", "E4", "G4"],
+      "projectId": 1
+    },
+    {
+      "id": 3,
+      "notes": ["C4", "A4", "E4", "G4"],
+      "projectId": 2
+    },
+    {
+      "id": 4,
+      "notes": ["C4", "A4", "E4", "G4"],
+      "projectId": 2
     }
   ],
   "users": [
