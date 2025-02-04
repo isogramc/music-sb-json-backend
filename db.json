@@ -19,12 +19,11 @@
       "userId": 2
     },
     {
-      "title": "jjisjfdi",
-      "description": "sdkfpskdofp",
-      "image": "https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-nature-mountain-scenery-with-flowers-free-photo.jpg?w=2210&quality=70",
+      "title": "truth or dare",
+      "description": "peaceful",
+      "image": "https://wallpapercave.com/wp/LcLsWmw.jpg",
       "duration": 0,
-      "genre": "folk",
-      "userId": 2,
+      "genre": "classical",
       "id": 5
     }
   ],
@@ -43,17 +42,6 @@
     {
       "instructions": "left-hand",
       "notes": [
-        "C3",
-        "E3",
-        "G3",
-        "C4"
-      ],
-      "songId": "5",
-      "id": 2
-    },
-    {
-      "instructions": "left-hand",
-      "notes": [
         "C4",
         "D4",
         "E4",
@@ -62,19 +50,35 @@
       ],
       "songId": "4",
       "id": 4
+    },
+    {
+      "instructions": "practice scale",
+      "notes": [
+        "C3",
+        "E3",
+        "G3",
+        "C4",
+        "G3",
+        "E3",
+        "C3"
+      ],
+      "songId": "5",
+      "id": 5
     }
   ],
   "users": [
     {
       "id": 1,
-      "userId": 1,
       "image": "",
+      "email": "",
+      "password": "", 
       "fullName": "Paulo Prado"
     },
     {
       "id": 2,
-      "userId": 2,
       "image": "",
+      "email": "trix@trix.com",
+      "password": "test", 
       "fullName": "Trix Mostert"
     }
   ]
