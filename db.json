@@ -4,43 +4,64 @@
       "id": 1,
       "title": "Doodle in C major",
       "description": "Just a basic riff",
-      "image": "https://hdqwalls.com/wallpapers/sunset-beach-cp.jpg", 
-      "tracks": [1, 2],
+      "image": "https://hdqwalls.com/wallpapers/sunset-beach-cp.jpg",
       "duration": 10,
       "genre": "pop",
       "userId": 1
     },
     {
-      "id": 2,
-      "title": "Doodle in D minor",
-      "description": "Creating a jazzy tune in Dm",
-      "image": "https://unsplash.com/photos/an-overhead-view-of-a-forest-with-lots-of-trees-ZhXZEvEhJmQ", 
-      "tracks": [3, 4],
-      "duration": 10,
-      "genre": "jazz",
+      "title": "Hard days night",
+      "description": "hello world",
+      "image": "https://i.pinimg.com/originals/7d/09/16/7d0916950d5fe630e7edae50294481e2.jpg",
+      "duration": 0,
+      "genre": "british pop music",
+      "id": 4,
       "userId": 2
+    },
+    {
+      "title": "jjisjfdi",
+      "description": "sdkfpskdofp",
+      "image": "https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-nature-mountain-scenery-with-flowers-free-photo.jpg?w=2210&quality=70",
+      "duration": 0,
+      "genre": "folk",
+      "userId": 2,
+      "id": 5
     }
   ],
   "tracks": [
     {
       "id": 1,
-      "notes": ["C4", "A4", "E4", "G4"],
-      "projectId": 1
+      "instructions": "left hand",
+      "notes": [
+        "C4",
+        "A4",
+        "E4",
+        "G4"
+      ],
+      "songId": 1
     },
     {
-      "id": 2,
-      "notes": ["C4", "A4", "E4", "G4"],
-      "projectId": 1
+      "instructions": "left-hand",
+      "notes": [
+        "C3",
+        "E3",
+        "G3",
+        "C4"
+      ],
+      "songId": "5",
+      "id": 2
     },
     {
-      "id": 3,
-      "notes": ["C4", "A4", "E4", "G4"],
-      "projectId": 2
-    },
-    {
-      "id": 4,
-      "notes": ["C4", "A4", "E4", "G4"],
-      "projectId": 2
+      "instructions": "left-hand",
+      "notes": [
+        "C4",
+        "D4",
+        "E4",
+        "F4",
+        "G4"
+      ],
+      "songId": "4",
+      "id": 4
     }
   ],
   "users": [
