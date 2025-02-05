@@ -24,7 +24,35 @@
       "image": "https://wallpapercave.com/wp/LcLsWmw.jpg",
       "duration": 0,
       "genre": "classical",
-      "id": 5
+      "id": 5, 
+      "userId": 3
+    },
+    {
+      "id": 6,
+      "title": "Doodle in C major",
+      "description": "Just a basic riff",
+      "image": "https://wallpapercave.com/wp/LcLsWmw.jpg",
+      "duration": 10,
+      "genre": "pop",
+      "userId": 1
+    },
+    {
+      "title": "Hard days night",
+      "description": "hello world",
+      "image": "https://hdqwalls.com/wallpapers/sunset-beach-cp.jpg",
+      "duration": 0,
+      "genre": "british pop music",
+      "id": 7,
+      "userId": 2
+    },
+    {
+      "title": "truth or dare",
+      "description": "peaceful",
+      "image": "https://wallpapercave.com/wp/LcLsWmw.jpg",
+      "duration": 0,
+      "genre": "classical",
+      "id": 8, 
+      "userId": 3
     }
   ],
   "tracks": [
@@ -71,15 +99,22 @@
       "id": 1,
       "image": "",
       "email": "",
-      "password": "", 
+      "password": "",
       "fullName": "Paulo Prado"
     },
     {
       "id": 2,
       "image": "",
       "email": "trix@trix.com",
-      "password": "test", 
+      "password": "test",
       "fullName": "Trix Mostert"
+    },
+    {
+      "email": "trix.m0@pm.me",
+      "fullName": "Trix",
+      "image": "https://res.cloudinary.com/dwyipecoa/image/upload/v1737391815/th-3544425054_iifsql.jpg",
+      "password": "resetP@ssw0rd",
+      "id": 3
     }
   ]
 }
