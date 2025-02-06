@@ -5,7 +5,6 @@
       "title": "Doodle in C major",
       "description": "Just a basic riff",
       "image": "https://hdqwalls.com/wallpapers/sunset-beach-cp.jpg",
-      "duration": 10,
       "genre": "pop",
       "userId": 1
     },
@@ -13,26 +12,22 @@
       "title": "Hard days night",
       "description": "hello world",
       "image": "https://i.pinimg.com/originals/7d/09/16/7d0916950d5fe630e7edae50294481e2.jpg",
-      "duration": 0,
       "genre": "british pop music",
       "id": 4,
       "userId": 2
     },
     {
-      "title": "truth or dare",
+      "title": "my truth",
       "description": "peaceful",
-      "image": "https://wallpapercave.com/wp/LcLsWmw.jpg",
-      "duration": 0,
-      "genre": "classical",
-      "id": 5, 
-      "userId": 3
+      "image": "https://www.pixelstalk.net/wp-content/uploads/2016/06/Beautiful-night-Images-hd.jpg",
+      "genre": "rock",
+      "id": 5
     },
     {
       "id": 6,
       "title": "Doodle in C major",
       "description": "Just a basic riff",
       "image": "https://wallpapercave.com/wp/LcLsWmw.jpg",
-      "duration": 10,
       "genre": "pop",
       "userId": 1
     },
@@ -40,7 +35,6 @@
       "title": "Hard days night",
       "description": "hello world",
       "image": "https://hdqwalls.com/wallpapers/sunset-beach-cp.jpg",
-      "duration": 0,
       "genre": "british pop music",
       "id": 7,
       "userId": 2
@@ -49,9 +43,8 @@
       "title": "truth or dare",
       "description": "peaceful",
       "image": "https://wallpapercave.com/wp/LcLsWmw.jpg",
-      "duration": 0,
       "genre": "classical",
-      "id": 8, 
+      "id": 8,
       "userId": 3
     }
   ],
@@ -65,7 +58,15 @@
         "E4",
         "G4"
       ],
-      "songId": 1
+      "songId": 1,
+      "keyboardPos": 3,
+      "notesPositions": [
+        17,
+        22,
+        19,
+        21
+      ],
+      "duration": 2
     },
     {
       "instructions": "left-hand",
@@ -77,7 +78,15 @@
         "G4"
       ],
       "songId": "4",
-      "id": 4
+      "id": 4,
+      "keyboardPos": 3,
+      "notesPositions": [
+        17,
+        22,
+        19,
+        21
+      ],
+      "duration": 2
     },
     {
       "instructions": "practice scale",
@@ -91,7 +100,43 @@
         "C3"
       ],
       "songId": "5",
-      "id": 5
+      "id": 5,
+      "keyboardPos": 3,
+      "notesPositions": [
+        10,
+        12,
+        14,
+        17,
+        14,
+        12,
+        10
+      ],
+      "duration": 3.5
+    },
+    {
+      "instructions": "left-hand",
+      "notes": [
+        "C3",
+        "E3",
+        "G3",
+        "C4",
+        "G3",
+        "E3",
+        "C3"
+      ],
+      "songId": "8",
+      "id": 6,
+      "keyboardPos": 3,
+      "notesPositions": [
+        10,
+        12,
+        14,
+        17,
+        14,
+        12,
+        10
+      ],
+      "duration": 3.5
     }
   ],
   "users": [
