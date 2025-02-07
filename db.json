@@ -41,11 +41,11 @@
     },
     {
       "title": "truth or dare",
-      "description": "peaceful",
-      "image": "https://wallpapercave.com/wp/LcLsWmw.jpg",
-      "genre": "classical",
+      "description": "something else",
+      "image": "https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-nature-mountain-scenery-with-flowers-free-photo.jpg?w=2210&quality=70",
+      "genre": "pop",
       "id": 8,
-      "userId": 3
+      "userId": 2
     }
   ],
   "tracks": [
@@ -137,6 +137,82 @@
         10
       ],
       "duration": 3.5
+    },
+    {
+      "instructions": "left-hand",
+      "notes": [
+        "C3",
+        "C4",
+        "B3",
+        "A3",
+        "G3",
+        "F3",
+        "E3",
+        "D3",
+        "C3"
+      ],
+      "songId": "1",
+      "notesPositions": [
+        10,
+        17,
+        16,
+        15,
+        14,
+        13,
+        12,
+        11,
+        10
+      ],
+      "duration": 4.5,
+      "id": 7
+    },
+    {
+      "instructions": "test",
+      "notes": [
+        "C4",
+        "C4",
+        "C4",
+        "C4",
+        "B3",
+        "A#3",
+        "E4",
+        "D4"
+      ],
+      "songId": "4",
+      "notesPositions": [
+        17,
+        17,
+        17,
+        17,
+        16,
+        4,
+        19,
+        18
+      ],
+      "duration": 4,
+      "id": 8
+    },
+    {
+      "instructions": "left-hand",
+      "notes": [
+        "D4",
+        "C4",
+        "B3",
+        "A#3",
+        "D#4",
+        "F4"
+      ],
+      "songId": "5",
+      "notesPositions": [
+        18,
+        17,
+        16,
+        4,
+        6,
+        20
+      ],
+      "duration": 3,
+      "id": 9
     }
   ],
   "users": [
@@ -160,6 +236,13 @@
       "image": "https://res.cloudinary.com/dwyipecoa/image/upload/v1737391815/th-3544425054_iifsql.jpg",
       "password": "resetP@ssw0rd",
       "id": 3
+    },
+    {
+      "email": "theresamostert@yahoo.co.uk",
+      "fullName": "Trix Mostert",
+      "image": "https://robohash.org/theresamostert%40yahoo.co.uk.png?size=200x200",
+      "password": "test123",
+      "id": 4
     }
   ]
 }
