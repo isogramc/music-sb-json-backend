@@ -165,20 +165,34 @@
       "solved": null 
     }
   ],
-  "challenge": [
-    "Record a [key] major scale (ascending)", 
-    "Record a [key] minor scale (ascending)", 
-    "Record a [key] major scale (descending)", 
-    "Record a [key] minor scale (descending)", 
-    "Record a [key] major arpeggio (ascending)",
-    "Record a [key] minor arpeggio (ascending)",
-    "Record a [key] major arpeggio (descending)",
-    "Record a [key] minor arpeggio (descending)",
-    "Record a [key] chromatic scale (ascending)",
-    "Record a [key] chromatic scale (descending)",
-    "Play the three notes of a [key] major chord",
-    "Play the three notes of a [key] minor chord"
+  "challenges": [
+    {"challenge": "Record a [key] major scale (ascending)"}, 
+    {"challenge": "Record a [key] minor scale (ascending)"}, 
+    {"challenge": "Record a [key] major scale (descending)"}, 
+    {"challenge":"Record a [key] minor scale (descending)"}, 
+    {"challenge":"Record a [key] major arpeggio (ascending)"},
+    {"challenge":"Record a [key] minor arpeggio (ascending)"},
+    {"challenge":"Record a [key] major arpeggio (descending)"},
+    {"challenge":"Record a [key] minor arpeggio (descending)"},
+    {"challenge":"Record a [key] chromatic scale (ascending)"},
+    {"challenge":"Record a [key] chromatic scale (descending)"},
+    {"challenge":"Play the three notes of a [key] major chord"},
+    {"challenge":"Play the three notes of a [key] minor chord"}
   ],
+  "videos": [
+    {"url": "https://www.youtube.com/watch?v=NUVQIwO1SEI", 
+      "tags": ["piano", "melody"], 
+      "level": "beginner0"
+    }, 
+    {"url": "https://www.youtube.com/watch?v=3BULT0-joT0", 
+    "tags": ["piano", "reading"],  
+    "level": "beginner0"
+    },
+    {"url": "https://youtu.be/QBH6IpRkVDs?si=f5x1fH0pzsnqUH7a", 
+    "tags": ["piano", "keyboard"],  
+    "level": "beginner0"
+  }
+],
   "users": [
     {
       "id": 1,
