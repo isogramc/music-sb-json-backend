@@ -1,22 +1,6 @@
 {
   "songs": [
     {
-      "id": 1,
-      "title": "Doodle in C major",
-      "description": "Just a basic riff",
-      "image": "https://hdqwalls.com/wallpapers/sunset-beach-cp.jpg",
-      "genre": "pop",
-      "userId": 1
-    },
-    {
-      "title": "Hard days night",
-      "description": "hello world",
-      "image": "https://i.pinimg.com/originals/7d/09/16/7d0916950d5fe630e7edae50294481e2.jpg",
-      "genre": "british pop music",
-      "id": 4,
-      "userId": 2
-    },
-    {
       "title": "my truth",
       "description": "peaceful",
       "image": "https://www.pixelstalk.net/wp-content/uploads/2016/06/Beautiful-night-Images-hd.jpg",
@@ -46,48 +30,18 @@
       "genre": "pop",
       "id": 8,
       "userId": 2
+    },
+    {
+      "title": "The roof is on fire",
+      "description": "exploring",
+      "image": "https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-nature-mountain-scenery-with-flowers-free-photo.jpg?w=2210&quality=70",
+      "duration": 0,
+      "genre": "rock",
+      "userId": 4,
+      "id": 9
     }
   ],
   "tracks": [
-    {
-      "id": 1,
-      "instructions": "left hand",
-      "notes": [
-        "C4",
-        "A4",
-        "E4",
-        "G4"
-      ],
-      "songId": 1,
-      "keyboardPos": 3,
-      "notesPositions": [
-        17,
-        22,
-        19,
-        21
-      ],
-      "duration": 2
-    },
-    {
-      "instructions": "left-hand",
-      "notes": [
-        "C4",
-        "D4",
-        "E4",
-        "F4",
-        "G4"
-      ],
-      "songId": "4",
-      "id": 4,
-      "keyboardPos": 3,
-      "notesPositions": [
-        17,
-        22,
-        19,
-        21
-      ],
-      "duration": 2
-    },
     {
       "instructions": "practice scale",
       "notes": [
@@ -111,7 +65,10 @@
         12,
         10
       ],
-      "duration": 3.5
+      "duration": 3.5, 
+      "challengeGame": "",
+      "solutionCg": [],
+      "solved": null 
     },
     {
       "instructions": "left-hand",
@@ -136,61 +93,10 @@
         12,
         10
       ],
-      "duration": 3.5
-    },
-    {
-      "instructions": "left-hand",
-      "notes": [
-        "C3",
-        "C4",
-        "B3",
-        "A3",
-        "G3",
-        "F3",
-        "E3",
-        "D3",
-        "C3"
-      ],
-      "songId": "1",
-      "notesPositions": [
-        10,
-        17,
-        16,
-        15,
-        14,
-        13,
-        12,
-        11,
-        10
-      ],
-      "duration": 4.5,
-      "id": 7
-    },
-    {
-      "instructions": "test",
-      "notes": [
-        "C4",
-        "C4",
-        "C4",
-        "C4",
-        "B3",
-        "A#3",
-        "E4",
-        "D4"
-      ],
-      "songId": "4",
-      "notesPositions": [
-        17,
-        17,
-        17,
-        17,
-        16,
-        4,
-        19,
-        18
-      ],
-      "duration": 4,
-      "id": 8
+      "duration": 3.5,
+      "challengeGame": "",
+      "solutionCg": [],
+      "solved": null
     },
     {
       "instructions": "left-hand",
@@ -212,8 +118,66 @@
         20
       ],
       "duration": 3,
-      "id": 9
+      "id": 9,
+      "challengeGame": "",
+      "solutionCg": [],
+      "solved": null 
+    },
+    {
+      "instructions": "first draft",
+      "notes": [
+        "A3",
+        "A3",
+        "A3",
+        "G3",
+        "F3",
+        "D4",
+        "C4",
+        "D4",
+        "D4",
+        "D4",
+        "C4",
+        "A3",
+        "G3",
+        "F3"
+      ],
+      "songId": "9",
+      "notesPositions": [
+        15,
+        15,
+        15,
+        14,
+        13,
+        18,
+        17,
+        18,
+        18,
+        18,
+        17,
+        15,
+        14,
+        13
+      ],
+      "duration": 7,
+      "id": 10,
+      "challengeGame": "",
+      "solutionCg": [],
+      "solved": null 
     }
+  ],
+  "challenge": [
+    "Record a [key] major scale (ascending)", 
+    "Record a [key] minor scale (ascending)", 
+    "Record a [key] major scale (descending)", 
+    "Record a [key] minor scale (descending)", 
+    "Record a [key] major arpeggio (ascending)",
+    "Record a [key] minor arpeggio (ascending)",
+    "Record a [key] major arpeggio (descending)",
+    "Record a [key] minor arpeggio (descending)",
+    "Record a [key] chromatic scale (ascending)",
+    "Record a [key] chromatic scale (descending)",
+    "Play the three notes of a [key] major chord",
+    "Play the three notes of a [key] minor chord"
   ],
   "users": [
     {
