@@ -65,10 +65,10 @@
         12,
         10
       ],
-      "duration": 3.5, 
+      "duration": 3.5,
       "challengeGame": "",
       "solutionCg": [],
-      "solved": null 
+      "solved": null
     },
     {
       "instructions": "left-hand",
@@ -121,7 +121,7 @@
       "id": 9,
       "challengeGame": "",
       "solutionCg": [],
-      "solved": null 
+      "solved": null
     },
     {
       "instructions": "first draft",
@@ -162,37 +162,73 @@
       "id": 10,
       "challengeGame": "",
       "solutionCg": [],
-      "solved": null 
+      "solved": null
     }
   ],
   "challenges": [
-    {"challenge": "Record a [key] major scale (ascending)"}, 
-    {"challenge": "Record a [key] minor scale (ascending)"}, 
-    {"challenge": "Record a [key] major scale (descending)"}, 
-    {"challenge":"Record a [key] minor scale (descending)"}, 
-    {"challenge":"Record a [key] major arpeggio (ascending)"},
-    {"challenge":"Record a [key] minor arpeggio (ascending)"},
-    {"challenge":"Record a [key] major arpeggio (descending)"},
-    {"challenge":"Record a [key] minor arpeggio (descending)"},
-    {"challenge":"Record a [key] chromatic scale (ascending)"},
-    {"challenge":"Record a [key] chromatic scale (descending)"},
-    {"challenge":"Play the three notes of a [key] major chord"},
-    {"challenge":"Play the three notes of a [key] minor chord"}
+    {
+      "challenge": "Record a [key] major scale (ascending)"
+    },
+    {
+      "challenge": "Record a [key] minor scale (ascending)"
+    },
+    {
+      "challenge": "Record a [key] major scale (descending)"
+    },
+    {
+      "challenge": "Record a [key] minor scale (descending)"
+    },
+    {
+      "challenge": "Record a [key] major arpeggio (ascending)"
+    },
+    {
+      "challenge": "Record a [key] minor arpeggio (ascending)"
+    },
+    {
+      "challenge": "Record a [key] major arpeggio (descending)"
+    },
+    {
+      "challenge": "Record a [key] minor arpeggio (descending)"
+    },
+    {
+      "challenge": "Record a [key] chromatic scale (ascending)"
+    },
+    {
+      "challenge": "Record a [key] chromatic scale (descending)"
+    },
+    {
+      "challenge": "Play the three notes of a [key] major chord"
+    },
+    {
+      "challenge": "Play the three notes of a [key] minor chord"
+    }
   ],
   "videos": [
-    {"url": "https://www.youtube.com/watch?v=NUVQIwO1SEI", 
-      "tags": ["piano", "melody"], 
+    {
+      "url": "https://www.youtube.com/watch?v=NUVQIwO1SEI",
+      "tags": [
+        "piano",
+        "melody"
+      ],
       "level": "beginner0"
-    }, 
-    {"url": "https://www.youtube.com/watch?v=3BULT0-joT0", 
-    "tags": ["piano", "reading"],  
-    "level": "beginner0"
     },
-    {"url": "https://youtu.be/QBH6IpRkVDs?si=f5x1fH0pzsnqUH7a", 
-    "tags": ["piano", "keyboard"],  
-    "level": "beginner0"
-  }
-],
+    {
+      "url": "https://www.youtube.com/watch?v=3BULT0-joT0",
+      "tags": [
+        "piano",
+        "reading"
+      ],
+      "level": "beginner0"
+    },
+    {
+      "url": "https://youtu.be/QBH6IpRkVDs?si=f5x1fH0pzsnqUH7a",
+      "tags": [
+        "piano",
+        "keyboard"
+      ],
+      "level": "beginner0"
+    }
+  ],
   "users": [
     {
       "id": 1,
@@ -209,17 +245,10 @@
       "fullName": "Trix Mostert"
     },
     {
-      "email": "trix.m0@pm.me",
-      "fullName": "Trix",
-      "image": "https://res.cloudinary.com/dwyipecoa/image/upload/v1737391815/th-3544425054_iifsql.jpg",
-      "password": "resetP@ssw0rd",
-      "id": 3
-    },
-    {
-      "email": "theresamostert@yahoo.co.uk",
-      "fullName": "Trix Mostert",
-      "image": "https://robohash.org/theresamostert%40yahoo.co.uk.png?size=200x200",
-      "password": "test123",
+      "email": "scooby@me.co",
+      "fullName": "scooby doo",
+      "image": "https://robohash.org/scooby%40me.co.png?size=200x200",
+      "password": "646f646f31303031393934696c6f766563686f636f6c617465",
       "id": 4
     }
   ]
