@@ -1,49 +1,53 @@
 {
   "songs": [
     {
+      "id": 1,
       "title": "my truth",
       "description": "peaceful",
       "image": "https://www.pixelstalk.net/wp-content/uploads/2016/06/Beautiful-night-Images-hd.jpg",
       "genre": "rock",
-      "id": 5
+      "userId": 1
     },
     {
-      "id": 6,
+      "id": 2,
       "title": "Doodle in C major",
       "description": "Just a basic riff",
       "image": "https://wallpapercave.com/wp/LcLsWmw.jpg",
       "genre": "pop",
-      "userId": 1
+      "userId": 2
     },
     {
+      "id": 3,
       "title": "Hard days night",
       "description": "hello world",
       "image": "https://hdqwalls.com/wallpapers/sunset-beach-cp.jpg",
       "genre": "british pop music",
-      "id": 7,
-      "userId": 2
+      "userId": 3
     },
     {
+      "id": 4,
       "title": "truth or dare",
       "description": "something else",
       "image": "https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-nature-mountain-scenery-with-flowers-free-photo.jpg?w=2210&quality=70",
       "genre": "pop",
-      "id": 8,
-      "userId": 2
+      "userId": 3
     },
     {
+      "id": 5,
       "title": "The roof is on fire",
       "description": "exploring",
       "image": "https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-nature-mountain-scenery-with-flowers-free-photo.jpg?w=2210&quality=70",
       "duration": 0,
       "genre": "rock",
-      "userId": 4,
-      "id": 9
+      "userId": 2
     }
   ],
   "tracks": [
     {
+      "id": 1,
       "instructions": "practice scale",
+      "keyboardPos": 3,
+      "duration": 3.5,
       "notes": [
         "C3",
         "E3",
@@ -52,10 +56,7 @@
         "G3",
         "E3",
         "C3"
-      ],
-      "songId": "5",
-      "id": 5,
-      "keyboardPos": 3,
+      ], 
       "notesPositions": [
         10,
         12,
@@ -65,104 +66,51 @@
         12,
         10
       ],
-      "duration": 3.5,
+      "isChallenge": false,
       "challengeGame": "",
       "solutionCg": [],
-      "solved": null
+      "solved": null,
+      "songId": 3
     },
     {
-      "instructions": "left-hand",
+      "id": 2,
+      "instructions": "challenge",
+      "keyboardPos": 3,
+      "duration": 4,
       "notes": [
         "C3",
+        "D3",
         "E3",
-        "G3",
-        "C4",
-        "G3",
-        "E3",
-        "C3"
-      ],
-      "songId": "8",
-      "id": 6,
-      "keyboardPos": 3,
-      "notesPositions": [
-        10,
-        12,
-        14,
-        17,
-        14,
-        12,
-        10
-      ],
-      "duration": 3.5,
-      "challengeGame": "",
-      "solutionCg": [],
-      "solved": null
-    },
-    {
-      "instructions": "left-hand",
-      "notes": [
-        "D4",
-        "C4",
-        "B3",
-        "A#3",
-        "D#4",
-        "F4"
-      ],
-      "songId": "5",
-      "notesPositions": [
-        18,
-        17,
-        16,
-        4,
-        6,
-        20
-      ],
-      "duration": 3,
-      "id": 9,
-      "challengeGame": "",
-      "solutionCg": [],
-      "solved": null
-    },
-    {
-      "instructions": "first draft",
-      "notes": [
-        "A3",
-        "A3",
-        "A3",
-        "G3",
         "F3",
-        "D4",
-        "C4",
-        "D4",
-        "D4",
-        "D4",
-        "C4",
-        "A3",
         "G3",
-        "F3"
+        "A3",
+        "B3",
+        "C4"
       ],
-      "songId": "9",
       "notesPositions": [
-        15,
-        15,
-        15,
-        14,
+        10,
+        11,
+        12,
         13,
-        18,
-        17,
-        18,
-        18,
-        18,
-        17,
-        15,
         14,
-        13
+        15,
+        16,
+        17
       ],
-      "duration": 7,
-      "id": 10,
-      "challengeGame": "",
-      "solutionCg": [],
-      "solved": null
+      "isChallenge": true,
+      "challengeGame": "13/02/2025",
+      "solved": true,
+      "solutionCg": [
+        "C3",
+        "D3",
+        "E3",
+        "F3",
+        "G3",
+        "A3",
+        "B3",
+        "C4"
+      ],
+      "songId": 4
     }
   ],
   "challenges": [
@@ -245,11 +193,11 @@
       "fullName": "Trix Mostert"
     },
     {
-      "email": "scooby@me.co",
-      "fullName": "scooby doo",
-      "image": "https://robohash.org/scooby%40me.co.png?size=200x200",
-      "password": "646f646f31303031393934696c6f766563686f636f6c617465",
-      "id": 4
+      "email": "lex@tester.com",
+      "fullName": "lexi child",
+      "image": "https://robohash.org/lex%40tester.com.png?size=200x200",
+      "password": "7465737431323331393934696c6f766563686f636f6c617465",
+      "id": 3
     }
   ]
 }
